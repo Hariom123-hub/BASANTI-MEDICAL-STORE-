@@ -269,11 +269,11 @@ export default function App() {
     whatsappNumber: "919876543210",
     aboutUsText: "We are Basanti Medical Store, committed to providing accessible, high-quality, and fast healthcare solutions, including home lab-test blood collection and free doctor call consultations.",
     bannerOfferText: "🎉 Super Health Offer: Apply code parthapharmacy20 for 20% OFF + 120 Rewards Points on first signup!",
-    aiAssistantName: "Partha AI Assistant",
-    opsPanelTitle: "Partha Pharmacist & Operations Hub",
+    aiAssistantName: "Basanti AI Assistant",
+    opsPanelTitle: "Basanti Pharmacist & Operations Hub",
     customLogoUrl: "",
     brandBio: "Care • Trust • Pure",
-    mobileNavTitle: "Partha Navigation",
+    mobileNavTitle: "Basanti Navigation",
     categoryImages: {}
   });
 
@@ -1152,7 +1152,7 @@ export default function App() {
           reviewsCount: 15,
           prescriptionRequired: false,
           image: item.image || "",
-          brand: "Partha",
+          brand: "Basanti",
           composition: "Standard Formulation",
           uses: ["Standard therapeutic dosage"],
           dosage: "Standard",
@@ -1648,7 +1648,7 @@ export default function App() {
           <div className="bg-white w-72 h-full p-6 flex flex-col justify-between">
             <div className="space-y-6">
               <div className="flex justify-between items-center">
-                <span className="font-extrabold text-blue-900">{branding.mobileNavTitle || "Partha Navigation"}</span>
+                <span className="font-extrabold text-blue-900">{branding.mobileNavTitle || "Basanti Navigation"}</span>
                 <button onClick={() => setMobileMenuOpen(false)}><X className="w-6 h-6" /></button>
               </div>
 
@@ -3500,9 +3500,9 @@ export default function App() {
                           <Pill className="w-5 h-5 text-teal-600" />
                           {branding.appName || "Basanti Medical Store"}
                         </h2>
-                        <p className="text-[10px] text-slate-400">Digital Pharmacy Division of Partha Healthtech Pvt. Ltd.</p>
+                        <p className="text-[10px] text-slate-400">Digital Pharmacy Division of Basanti Healthtech Pvt. Ltd.</p>
                         <p className="text-[9px] text-slate-400">CDSCO License: Form 20: DL-110019-2026A | Form 21: DL-110019-2026B</p>
-                        <p className="text-[9px] text-slate-400">GSTIN: 07AABCPartha7728Z1</p>
+                        <p className="text-[9px] text-slate-400">GSTIN: 07AABCBasanti7728Z1</p>
                       </div>
                       <div className="text-right space-y-1">
                         <span className="bg-teal-50 border border-teal-100 text-teal-700 text-[10px] font-black px-2.5 py-1 rounded-md uppercase">TAX INVOICE</span>
@@ -3522,10 +3522,10 @@ export default function App() {
                       </div>
                       <div className="bg-slate-50 p-3 rounded-2xl border border-slate-100 space-y-1 text-left">
                         <span className="font-bold text-slate-800 uppercase tracking-wider block text-[8px]">Pharmacy Dispatch Point:</span>
-                        <p className="font-bold text-teal-800">Partha Warehouse Delhi NCR</p>
+                        <p className="font-bold text-teal-800">Basanti Warehouse Delhi NCR</p>
                         <p>77, DLF Industrial Area, Phase 1</p>
                         <p>New Delhi, Delhi - 110015</p>
-                        <p>On-Duty Pharmacist: Partha Sarathi (Reg RP-77492-DL)</p>
+                        <p>On-Duty Pharmacist: Basanti Sarathi (Reg RP-77492-DL)</p>
                       </div>
                     </div>
 
@@ -3546,7 +3546,7 @@ export default function App() {
                           <tr key={idx} className="border-b border-slate-100 text-slate-700">
                             <td className="py-2.5 px-3 text-left">
                               <p className="font-bold text-slate-900">{item.name}</p>
-                              <p className="text-[8px] text-slate-400">Batch: PP-{900 + idx}A2 | Exp: 09/2028 | Mfg: Partha Labs</p>
+                              <p className="text-[8px] text-slate-400">Batch: PP-{900 + idx}A2 | Exp: 09/2028 | Mfg: Basanti Labs</p>
                             </td>
                             <td className="py-2.5 px-3 font-mono text-[9px] text-left">30049099</td>
                             <td className="py-2.5 px-3 text-center font-bold">{item.quantity}</td>
@@ -4981,7 +4981,7 @@ export default function App() {
 
           <div className="space-y-3 bg-slate-950 p-4 rounded-2xl border border-slate-800">
             <h4 className="text-white font-extrabold text-sm tracking-wide flex items-center gap-1">
-              <Sparkle className="w-4 h-4 text-green-400 animate-pulse" /> {branding.aiAssistantName || "Partha AI Assistant"}
+              <Sparkle className="w-4 h-4 text-green-400 animate-pulse" /> {branding.aiAssistantName || "Basanti AI Assistant"}
             </h4>
             <p className="text-[11px] leading-relaxed">
               Have clinical questions about compositions, drug uses, or stress management? Speak with our Gemini-powered smart health consultant 24/7. Use the chat bubble on the right!

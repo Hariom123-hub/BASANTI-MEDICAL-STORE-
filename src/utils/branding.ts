@@ -8,14 +8,14 @@ export function formatBrandingText(text: string, appName: string): string {
   formatted = formatted.replace(/sonupharmacy/gi, () => lowerBrandNoSpace);
   formatted = formatted.replace(/sonumedicals/gi, () => lowerBrandNoSpace);
   formatted = formatted.replace(/parthapharmacy/gi, () => lowerBrandNoSpace);
-  formatted = formatted.replace(/Sonu\s+(Medicals|Pharmacy|Medical Store|Health|Medical)/gi, cleanAppName);
-  formatted = formatted.replace(/Partha\s+(Medicals|Pharmacy|Medical Store|Health|Medical)/gi, cleanAppName);
+  formatted = formatted.replace(/Basanti\s+(Medicals|Pharmacy|Medical Store|Health|Medical)/gi, cleanAppName);
+  formatted = formatted.replace(/Basanti\s+(Medicals|Pharmacy|Medical Store|Health|Medical)/gi, cleanAppName);
   formatted = formatted.replace(/SONU\s+PREMIUM\s+CLUB/gi, cleanAppName.toUpperCase() + " PREMIUM CLUB");
   formatted = formatted.replace(/PARTHA\s+PREMIUM\s+CLUB/gi, cleanAppName.toUpperCase() + " PREMIUM CLUB");
   formatted = formatted.replace(/SONU/g, upperBrandNoSpace);
   formatted = formatted.replace(/PARTHA/g, upperBrandNoSpace);
-  formatted = formatted.replace(/Sonu/g, shortName);
-  formatted = formatted.replace(/Partha/g, shortName);
+  formatted = formatted.replace(/Basanti/g, shortName);
+  formatted = formatted.replace(/Basanti/g, shortName);
   formatted = formatted.replace(/sonu/g, lowerBrandNoSpace);
   formatted = formatted.replace(/partha/g, lowerBrandNoSpace);
   return formatted;

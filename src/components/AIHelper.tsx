@@ -13,7 +13,7 @@ interface AIHelperProps {
 }
 
 export default function AIHelper({ onSuggestMed, branding }: AIHelperProps) {
-  const aiName = branding?.aiAssistantName || "Partha AI Assistant";
+  const aiName = branding?.aiAssistantName || "Basanti AI Assistant";
   const primaryColor = branding?.primaryColorHex || "#0d9488";
 
   const [messages, setMessages] = useState<ChatMessage[]>([

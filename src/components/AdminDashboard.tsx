@@ -642,12 +642,12 @@ export default function AdminDashboard({
   const [bPrimaryColorHex, setBPrimaryColorHex] = useState(branding?.primaryColorHex || "");
   const [bAboutUsText, setBAboutUsText] = useState(branding?.aboutUsText || "");
   const [bBannerOfferText, setBBannerOfferText] = useState(branding?.bannerOfferText || "");
-  const [bAiAssistantName, setBAiAssistantName] = useState(branding?.aiAssistantName || "Partha AI Assistant");
-  const [bOpsPanelTitle, setBOpsPanelTitle] = useState(branding?.opsPanelTitle || "Partha Pharmacist & Operations Hub");
+  const [bAiAssistantName, setBAiAssistantName] = useState(branding?.aiAssistantName || "Basanti AI Assistant");
+  const [bOpsPanelTitle, setBOpsPanelTitle] = useState(branding?.opsPanelTitle || "Basanti Pharmacist & Operations Hub");
   const [bCustomLogoUrl, setBCustomLogoUrl] = useState(branding?.customLogoUrl || "");
   const [bCustomLogoSize, setBCustomLogoSize] = useState(branding?.customLogoSize || 40);
   const [bBrandBio, setBBrandBio] = useState(branding?.brandBio || "");
-  const [bMobileNavTitle, setBMobileNavTitle] = useState(branding?.mobileNavTitle || "Partha Navigation");
+  const [bMobileNavTitle, setBMobileNavTitle] = useState(branding?.mobileNavTitle || "Basanti Navigation");
   const [bCategoryImages, setBCategoryImages] = useState<Record<string, string>>(branding?.categoryImages || {});
   const [bClinicAddress, setBClinicAddress] = useState(branding?.clinicAddress || "Sector 4, Nehru Enclave, New Delhi, 110019");
   const [bClinicLocationUrl, setBClinicLocationUrl] = useState(branding?.clinicLocationUrl || "https://maps.google.com");
@@ -759,12 +759,12 @@ export default function AdminDashboard({
       setBPrimaryColorHex(branding.primaryColorHex || "");
       setBAboutUsText(branding.aboutUsText || "");
       setBBannerOfferText(branding.bannerOfferText || "");
-      setBAiAssistantName(branding.aiAssistantName || "Partha AI Assistant");
-      setBOpsPanelTitle(branding.opsPanelTitle || "Partha Pharmacist & Operations Hub");
+      setBAiAssistantName(branding.aiAssistantName || "Basanti AI Assistant");
+      setBOpsPanelTitle(branding.opsPanelTitle || "Basanti Pharmacist & Operations Hub");
       setBCustomLogoUrl(branding.customLogoUrl || "");
       setBCustomLogoSize(branding.customLogoSize || 40);
       setBBrandBio(branding.brandBio || "");
-      setBMobileNavTitle(branding.mobileNavTitle || "Partha Navigation");
+      setBMobileNavTitle(branding.mobileNavTitle || "Basanti Navigation");
       setBCategoryImages(branding.categoryImages || {});
       setBExpertDoctorTitle(branding.expertDoctorTitle || "Expert Doctor Consult");
       setBExpertDoctorDesc(branding.expertDoctorDesc || "Book a live high-definition video session with certified cardiologists, dermatologists, and pediatricians");
@@ -1399,7 +1399,7 @@ export default function AdminDashboard({
               {showSuperAdmin ? "Return to Dashboard" : "Open Super Admin Config"}
             </button>
             <h1 className="text-xl sm:text-2xl font-black tracking-tight mt-1.5 sm:mt-2 flex items-center gap-1.5 sm:gap-2">
-              <Layers className="w-5 h-5 sm:w-6 sm:h-6 text-green-400" /> {branding?.opsPanelTitle || "Partha Pharmacist & Operations Hub"}
+              <Layers className="w-5 h-5 sm:w-6 sm:h-6 text-green-400" /> {branding?.opsPanelTitle || "Basanti Pharmacist & Operations Hub"}
             </h1>
             <p className="text-[11px] sm:text-xs text-blue-200 mt-0.5 sm:mt-1 leading-normal">
               Verify legal prescriptions, manage warehouse stock levels, dispatch customer orders, and trace revenue.
@@ -3804,11 +3804,11 @@ export default function AdminDashboard({
                       </div>
                       <div className="space-y-1">
                         <label className="block text-[11px] font-bold text-gray-500 uppercase tracking-wider">AI Assistant Name</label>
-                        <input type="text" required placeholder="e.g. Partha AI Assistant" value={bAiAssistantName} onChange={(e) => setBAiAssistantName(e.target.value)} className="w-full bg-white border border-slate-200 rounded-xl px-3 py-2 text-xs font-bold text-slate-800 focus:ring-2 focus:ring-blue-500" />
+                        <input type="text" required placeholder="e.g. Basanti AI Assistant" value={bAiAssistantName} onChange={(e) => setBAiAssistantName(e.target.value)} className="w-full bg-white border border-slate-200 rounded-xl px-3 py-2 text-xs font-bold text-slate-800 focus:ring-2 focus:ring-blue-500" />
                       </div>
                       <div className="space-y-1">
                         <label className="block text-[11px] font-bold text-gray-500 uppercase tracking-wider">Ops Panel Hub Title</label>
-                        <input type="text" required placeholder="e.g. Partha Pharmacist & Operations Hub" value={bOpsPanelTitle} onChange={(e) => setBOpsPanelTitle(e.target.value)} className="w-full bg-white border border-slate-200 rounded-xl px-3 py-2 text-xs font-bold text-slate-800 focus:ring-2 focus:ring-blue-500" />
+                        <input type="text" required placeholder="e.g. Basanti Pharmacist & Operations Hub" value={bOpsPanelTitle} onChange={(e) => setBOpsPanelTitle(e.target.value)} className="w-full bg-white border border-slate-200 rounded-xl px-3 py-2 text-xs font-bold text-slate-800 focus:ring-2 focus:ring-blue-500" />
                       </div>
                     </div>
                     
@@ -3840,7 +3840,7 @@ export default function AdminDashboard({
                       </div>
                       <div className="space-y-1">
                         <label className="block text-[11px] font-bold text-gray-500 uppercase tracking-wider">Mobile Drawer Menu Header</label>
-                        <input type="text" placeholder="e.g. Partha Navigation" value={bMobileNavTitle} onChange={(e) => setBMobileNavTitle(e.target.value)} className="w-full bg-white border border-slate-200 rounded-xl px-3 py-2 text-xs font-bold text-slate-800 focus:ring-2 focus:ring-blue-500" />
+                        <input type="text" placeholder="e.g. Basanti Navigation" value={bMobileNavTitle} onChange={(e) => setBMobileNavTitle(e.target.value)} className="w-full bg-white border border-slate-200 rounded-xl px-3 py-2 text-xs font-bold text-slate-800 focus:ring-2 focus:ring-blue-500" />
                       </div>
                     </div>
                   </div>
@@ -4954,7 +4954,7 @@ export default function AdminDashboard({
                     <label className="block text-[11px] font-bold text-gray-500 uppercase tracking-wider">Account Holder Name</label>
                     <input 
                       type="text" 
-                      placeholder="e.g. Partha Medical Store"
+                      placeholder="e.g. Basanti Medical Store"
                       value={pAccountHolderName}
                       onChange={(e) => setPAccountHolderName(e.target.value)}
                       className="w-full bg-white border border-slate-200 rounded-xl px-3 py-2 text-xs font-semibold text-slate-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
