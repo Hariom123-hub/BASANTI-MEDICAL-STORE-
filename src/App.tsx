@@ -1978,22 +1978,28 @@ export default function App() {
                       setActiveTab("store"); 
                       window.scrollTo({ top: 0, behavior: "smooth" });
                     }}
-                    className={`bg-white border rounded-2xl p-4 flex flex-col items-center justify-center text-center cursor-pointer transition-all hover:scale-105 ${
-                      selectedCategory === cat.id ? 'border-blue-500 ring-2 ring-blue-50' : 'border-slate-100 hover:border-blue-200'
+                    className={`relative bg-white border rounded-2xl overflow-hidden cursor-pointer transition-all hover:scale-[1.02] group aspect-[26/9] flex flex-col items-center justify-center ${
+                      selectedCategory === cat.id ? 'border-blue-500 ring-2 ring-blue-50' : 'border-slate-100 hover:border-blue-200 shadow-sm hover:shadow-md'
                     }`}
                   >
                     {branding.categoryImages?.[cat.id] ? (
-                      <img 
-                        src={branding.categoryImages[cat.id]} 
-                        alt={cat.name} 
-                        className="w-12 h-12 rounded-xl object-cover mb-2.5 bg-slate-50 border border-slate-100 shadow-xs" 
-                      />
+                      <>
+                        <img 
+                          src={branding.categoryImages[cat.id]} 
+                          alt={cat.name} 
+                          className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" 
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent transition-opacity duration-300"></div>
+                        <span className="relative z-10 text-[10px] sm:text-xs font-bold text-white uppercase tracking-wider text-center px-2 w-full mt-auto mb-2 drop-shadow-md leading-tight">{cat.name}</span>
+                      </>
                     ) : (
-                      <div className="bg-blue-50 text-blue-600 p-2.5 rounded-xl mb-2.5">
-                        <Pill className="w-5 h-5 rotate-45" />
+                      <div className="absolute inset-0 w-full h-full flex flex-col items-center justify-center p-2 bg-slate-50">
+                        <div className="bg-blue-50 text-blue-500 p-1.5 rounded-full mb-1">
+                           <Pill className="w-4 h-4 rotate-45" />
+                        </div>
+                        <span className="text-[9px] font-bold text-slate-600 uppercase tracking-tight leading-tight text-center line-clamp-2">{cat.name}</span>
                       </div>
                     )}
-                    <span className="text-[10px] font-bold text-slate-700 uppercase tracking-tight leading-tight line-clamp-2">{cat.name}</span>
                   </div>
                 ))}
               </div>
