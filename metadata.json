@@ -1,0 +1,6 @@
+{
+  "name": "Partha Pharmacy",
+  "description": "Premium online pharmacy and healthcare e-commerce platform with AI health assistant, prescription uploads, pharmacist verification, recurring refills, and consultation bookings.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

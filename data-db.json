@@ -1,0 +1,174 @@
+{
+  "products": [],
+  "doctors": [],
+  "orders": [],
+  "prescriptions": [],
+  "appointments": [],
+  "labBookings": [],
+  "subscriptions": [],
+  "loyalty": [
+    {
+      "userId": "hariomkdi@gmail.com",
+      "pointsBalance": 120,
+      "lifetimePoints": 250,
+      "tier": "SILVER",
+      "walletBalance": 450,
+      "referralsCount": 2,
+      "referralCode": "Firebase773"
+    }
+  ],
+  "users": [
+    {
+      "email": "hariomkdi@gmail.com",
+      "fullName": "Hariom Sharma",
+      "phone": "9876543210",
+      "addressLine": "12, Nehru Enclave, Sector 4",
+      "city": "New Delhi",
+      "pincode": "110019"
+    }
+  ],
+  "adminConfig": {
+    "email": "hariomkdi@gmail.com",
+    "pin": "7788"
+  },
+  "branding": {
+    "appName": "Firebase Test Store",
+    "appLogo": "PlusSquare",
+    "heroTitle": "Your Trusted Virtual Pharmacy & Clinical Care Center",
+    "heroSlogan": "Upload prescription, get instant pharmacological approval, secure free medicine deliveries, home lab tests, and up to 20% loyalty cashback!",
+    "heroImageUrl": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=1200",
+    "supportPhone": "+91 9876543210",
+    "supportEmail": "support@parthapharmacymedicals.com",
+    "primaryColorHex": "#2563eb",
+    "aboutUsText": "We are Basanti Medical Store, committed to providing accessible, high-quality, and fast healthcare solutions, including home lab-test blood collection and free doctor call consultations.",
+    "bannerOfferText": "🎉 Super Health Offer: Apply code parthapharmacy20 for 20% OFF + 120 Rewards Points on first signup!",
+    "aiAssistantName": "Partha AI Assistant",
+    "opsPanelTitle": "Partha Pharmacist & Operations Hub",
+    "customLogoUrl": "",
+    "brandBio": "Care • Trust • Pure",
+    "mobileNavTitle": "Partha Navigation",
+    "categoryImages": {
+      "prescription": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&q=80&w=400",
+      "otc": "https://images.unsplash.com/photo-1607619056574-7b8d304f3b6f?auto=format&fit=crop&q=80&w=400",
+      "ayurveda": "https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?auto=format&fit=crop&q=80&w=400",
+      "baby": "https://images.unsplash.com/photo-1555252333-9f8e92e65df9?auto=format&fit=crop&q=80&w=400",
+      "personal": "https://images.unsplash.com/photo-1526947425960-945c6e72858f?auto=format&fit=crop&q=80&w=400",
+      "health": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&q=80&w=400",
+      "nutrition": "https://images.unsplash.com/photo-1579758629938-03607ccdbaba?auto=format&fit=crop&q=80&w=400",
+      "elder": "https://images.unsplash.com/photo-1581579438747-1dc8d1e0ca96?auto=format&fit=crop&q=80&w=400",
+      "covid": "https://images.unsplash.com/photo-1584036561566-baf241f8714d?auto=format&fit=crop&q=80&w=400"
+    },
+    "expertDoctorTitle": "Expert Doctor Consult",
+    "expertDoctorDesc": "Book a live high-definition video session with certified cardiologists, dermatologists, and pediatricians",
+    "expertDoctorPrice": "starting at ₹450",
+    "expertDoctorImage": "",
+    "expertDoctorBgColor": "bg-red-50 text-red-600",
+    "bookLabTestsTitle": "Book Diagnostic Lab Tests",
+    "bookLabTestsDesc": "Full Body Checkups covering LFT, KFT, diabetes glucose load.",
+    "bookLabTestsDelivery": "Digital reports dispatched within 12 hours!",
+    "bookLabTestsImage": "",
+    "bookLabTestsBgColor": "bg-purple-50 text-purple-600",
+    "extraServices": [],
+    "enableGalleryPage": true,
+    "galleryPageTitle": "Come and visit Basanti Medical Store - one of the oldest & most trusted medical stores",
+    "galleryImages": [
+      {
+        "id": "g1",
+        "url": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=400"
+      },
+      {
+        "id": "g2",
+        "url": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&q=80&w=400"
+      },
+      {
+        "id": "g3",
+        "url": "https://images.unsplash.com/photo-1607619056574-7b8d304f3b6f?auto=format&fit=crop&q=80&w=400"
+      }
+    ],
+    "galleryAddressTitle": "Sector 4, Nehru Enclave, New Delhi, 110019",
+    "galleryAddressText": "Basanti Medical Store is located at Sector 4 (Opposite High School), at the heart of the town. The store is just a 5 minutes walking distance from the Bus Stand and Railway Station. The store can be reached at any time of the day using private vehicles, auto-rickshaw. The store is managed by skilled and experienced manpower so that you won't have to wait for hours to get the life-saving medicines for your dear ones.",
+    "galleryContactPhone": "03523 243433",
+    "galleryTimingText": "open 6 days a week from 9am to 9pm",
+    "galleryBannerImage": "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?auto=format&fit=crop&q=80&w=800",
+    "enableInvestPage": true,
+    "investPageTitle": "Invest with us",
+    "investPageText": "There are numerous opportunities for business expansion simply banking on our enormous BRAND value. Basanti Medical Store asks for the expression of interest from the investors to be a part of any potential project. When you choose to invest with us, you become a part of the immense goodwill that we have achieved through the sincere and honest services towards people for almost six decades. You are free to come up with ambitious proposals for growth and diversification and write at",
+    "investPageEmail": "support@parthapharmacy.com",
+    "investPageImage": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&q=80&w=800",
+    "enableAboutUsPage": true,
+    "aboutUsPageTitle": "About Basanti Medical Store",
+    "aboutUsPageText": "Basanti Medical Store has become a symbol of Trust and Reliability to the people. We cater to the needs of the rural and urban people. Located in the heart of the city, we are trusted by thousands of people not only for the availability of life-saving medicines but also for our strong ethics and customer friendliness.",
+    "aboutUsPageImage": "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?auto=format&fit=crop&q=80&w=800",
+    "aboutUsFactsTitle": "Few facts about Basanti Medical Store",
+    "aboutUsFacts": [
+      {
+        "id": "fact1",
+        "title": "QUALITY IS ASSURED",
+        "description": "We are dedicated to offering the best service and quality assurance to its valued customers with whom maintaining a healthy relationship is our first priority.",
+        "imageUrl": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&q=80&w=400"
+      },
+      {
+        "id": "fact2",
+        "title": "UNIQUE 3 TIER REVIEW SYSTEM",
+        "description": "We ensure that your prescription goes through a unique 3 Tier Review System before you get the medicines at your hands.",
+        "imageUrl": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=400"
+      },
+      {
+        "id": "fact3",
+        "title": "LARGE VARIETY",
+        "description": "We always keep ourselves updated on the new arrivals and banned items. We deal with a number of over-the-counter and high-end medicines.",
+        "imageUrl": "https://images.unsplash.com/photo-1607619056574-7b8d304f3b6f?auto=format&fit=crop&q=80&w=400"
+      },
+      {
+        "id": "fact4",
+        "title": "EXPERIENCED STAFF",
+        "description": "We have continued valuable services towards people due to the unending support and dedication of our staff. We have skilled pharmacists.",
+        "imageUrl": "https://images.unsplash.com/photo-1555252333-9f8e92e65df9?auto=format&fit=crop&q=80&w=400"
+      }
+    ],
+    "appGlobalBgImage": "",
+    "appGlobalBgColor": "bg-slate-50",
+    "verifyDeliveryTitle": "Verify Delivery Availability",
+    "verifyDeliveryDesc": "Enter your area pincode to check service availability & estimated dispatch durations.",
+    "verifyDeliveryBgUrl": "",
+    "deliveryLocations": [
+      {
+        "pincode": "110019",
+        "address": "Nehru Enclave, New Delhi"
+      },
+      {
+        "pincode": "400001",
+        "address": "Fort, Mumbai"
+      },
+      {
+        "pincode": "560001",
+        "address": "MG Road, Bangalore"
+      }
+    ],
+    "isPremiumClubEnabled": true,
+    "enableExpertDoctor": true,
+    "enableBookLabTests": true,
+    "enableVerifyDelivery": true,
+    "enableCategories": true,
+    "enableTopSelling": true,
+    "enableRefills": true,
+    "enableTrustFeatures": true,
+    "enableWhatsappOrder": true,
+    "whatsappNumber": "919876543210",
+    "premiumClubTitle": "SONU PREMIUM CLUB",
+    "premiumClubSlogan": "Refer your friends & receive direct cashback to your wallet!",
+    "premiumClubDescription": "Earn 5% reward points on every order. Plus, copy the code REFERRAL50 inside the account tab to add ₹50 cashback instantly to your wallet. Use your points during checkout for super discounts!",
+    "clinicAddress": "Sector 4, Nehru Enclave, New Delhi, 110019",
+    "clinicLocationUrl": "https://maps.google.com"
+  },
+  "paymentConfig": {
+    "upiId": "Firebase.pharmacy@okaxis",
+    "upiQrCode": "",
+    "bankName": "State Bank of India (SBI)",
+    "accountHolderName": "Firebase Test Store Pvt Ltd",
+    "accountNumber": "32104567890",
+    "ifscCode": "SBIN0001234",
+    "active": true
+  },
+  "advertisements": []
+}
