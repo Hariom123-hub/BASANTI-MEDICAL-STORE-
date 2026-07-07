@@ -136,9 +136,9 @@ const DEFAULT_BRANDING: GlobalSettings = {
   enableGalleryPage: true,
   galleryPageTitle: "Come and visit Basanti Medical Store - one of the oldest & most trusted medical stores",
   galleryImages: [
-    { id: "g1", url:  },
-    { id: "g2", url:  },
-    { id: "g3", url:  }
+    { id: "g1", url: "" },
+    { id: "g2", url: "" },
+    { id: "g3", url: "" }
   ],
   galleryAddressTitle: "Sector 4, Nehru Enclave, New Delhi, 110019",
   galleryAddressText: "Basanti Medical Store is located at Sector 4 (Opposite High School), at the heart of the town. The store is just a 5 minutes walking distance from the Bus Stand and Railway Station. The store can be reached at any time of the day using private vehicles, auto-rickshaw. The store is managed by skilled and experienced manpower so that you won't have to wait for hours to get the life-saving medicines for your dear ones.",
@@ -160,25 +160,25 @@ const DEFAULT_BRANDING: GlobalSettings = {
       id: "fact1",
       title: "QUALITY IS ASSURED",
       description: "We are dedicated to offering the best service and quality assurance to its valued customers with whom maintaining a healthy relationship is our first priority.",
-      imageUrl: 
+      imageUrl: ""
     },
     {
       id: "fact2",
       title: "UNIQUE 3 TIER REVIEW SYSTEM",
       description: "We ensure that your prescription goes through a unique 3 Tier Review System before you get the medicines at your hands.",
-      imageUrl: 
+      imageUrl: ""
     },
     {
       id: "fact3",
       title: "LARGE VARIETY",
       description: "We always keep ourselves updated on the new arrivals and banned items. We deal with a number of over-the-counter and high-end medicines.",
-      imageUrl: 
+      imageUrl: ""
     },
     {
       id: "fact4",
       title: "EXPERIENCED STAFF",
       description: "We have continued valuable services towards people due to the unending support and dedication of our staff. We have skilled pharmacists.",
-      imageUrl: 
+      imageUrl: ""
     }
   ],
   appGlobalBgImage: "",
@@ -816,7 +816,7 @@ async function startServer() {
         mrp: mrp,
         discount: discount,
         prescriptionRequired: pData.prescriptionRequired === true || pData.prescriptionRequired === 'true',
-        image: pData.image || ""existingProduct.image,
+        image: pData.image || existingProduct.image,
         manufacturer: pData.manufacturer || existingProduct.manufacturer,
         expiry: pData.expiry || existingProduct.expiry,
         composition: pData.composition || existingProduct.composition,
